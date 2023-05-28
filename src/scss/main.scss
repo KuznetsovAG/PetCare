@@ -1,0 +1,279 @@
+.mySwiper {
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    display: none;
+  }
+  
+  .swiper-button-prev img {
+    position: absolute;
+    top: -240px;
+    left: 95px;
+  }
+  
+  .swiper-button-next img {
+    position: absolute;
+    top: -240px;
+    right: 95px;
+  }
+  
+  .mySwiper .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    background: #BEE7E8;
+    opacity: 2;
+  }
+  .mySwiper .swiper-pagination-bullet-active {
+    background: #394573;
+  }
+  .mySwiper .swiper-pagination {
+    display: none;
+  }
+  
+  
+  
+  .slider__page {
+    padding: 105px 0px 146px 0px;
+    background: url('../img/background/pets_bg.png') no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .slider__page-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .slider__page-info {
+    width: 592px;
+  }
+  
+  .info__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: #BEE7E8;
+    margin-bottom: 24px;
+  }
+  
+  .info__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #A0D2DB;
+    margin-bottom: 32px;
+  }
+  
+  .info__button {
+    background: linear-gradient(90deg, #A0D2DB 0%, #726DA8 100%);
+    border-radius: 40px;
+    padding: 17px 49px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+  
+  .info__button:hover {
+    cursor: pointer;
+    background: linear-gradient(-90deg, #A0D2DB 0%, #726DA8 100%);
+  }
+  
+  .slider__page-image {
+    position: absolute;
+    width: 400px;
+    height: 494.66px;
+    left: 843px;
+    top: 60px;
+  }
+  
+  
+  .slider__page_care {
+    background: url('../img/background/dog.png') no-repeat;
+  }
+  
+  .info__title_care {
+    color: #394573;
+  }
+  
+  .info__text_care {
+    color: #394573;
+    margin-bottom: 24px;
+  }
+  
+  .info__price {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;  
+    color: #394573; 
+    margin-bottom: 24px;
+  }
+  
+  .info__button_care {
+    background: #394573;
+  }
+  
+  .services__page {
+    padding: 70px 0px 72px 0px;
+  }
+  
+  .services__page-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  
+  .services__page-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    width: 592px;
+    height: 630px;
+    background: url('../img/background/consultation.png') no-repeat;
+    border-radius: 40px;
+  }
+  
+  .card__body {
+    padding: 0px 40px 99px 40px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #333333 100%);
+    border-radius: 40px;
+  }
+  
+  .card__body_breed {
+    padding: 0px 40px;
+    border-radius: 0;
+  }
+  
+  
+  .services__page-card_breed {
+    background: url('../img/background/breed.png') no-repeat;
+  }
+  
+  .card__arrow {
+    width: 230px;
+  }
+  
+  
+  
+  .card__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+  }
+  
+  .card__text {
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+  }
+  
+  .card__button {
+    width: 100%;
+    background: #333333;
+    border-radius: 0px 0px 40px 40px;
+    padding: 22px 40px;
+    text-align: left;
+  }
+  
+  .card__button-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+  
+  .services__page-card_hover {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 630px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+  }
+  
+  .consultaton__body {
+    padding: 48px 40px;
+  }
+  
+  .services__page-card:hover .services__page-card_hover {
+    opacity: 1;
+  }
+  
+  .consultaton__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #394573;
+    margin-bottom: 24px;
+  }
+  
+  .consultaton__price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #A0D2DB;
+    margin-bottom: 24px;
+  }
+  .consultaton__price span {
+    font-size: 40px;
+    line-height: 49px;
+  }
+  
+  .consultaton__description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 56px;
+  }
+  
+  .consultaton__item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .consultaton__item-image {
+    margin-right: 20px;
+  }
+  
+  .consultaton__item-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px; 
+    color: #333333;  
+  }
+  
+  .consultaton__button {
+    background: #394573;
+    border-radius: 40px;
+    padding: 17px 45px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+  
