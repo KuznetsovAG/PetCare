@@ -7,6 +7,8 @@ import {
   logo,
   logo_mobile,
   logo_text,
+  mobile_menu,
+  mobile_close,
 } from "../img/images";
 
 const Header = () => {
@@ -60,12 +62,17 @@ const Header = () => {
           className="header__mobile-menu"
           onClick={() => setActive((prevState) => !prevState)}
         >
-          <div className={"menu-btn " + (active ? "active" : "")}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+          {active ? (
+            <img
+              src={mobile_close}
+              alt="mobile_close"
+              className="header__mobile-close"
+            />
+          ) : (
+            <img src={mobile_menu} alt="mobile_menu" />
+          )}
         </div>
+
         <div className={"menu__nav " + (active ? "active" : "")}>
           <nav className="nav__mobile">
             <ul className="nav__list">

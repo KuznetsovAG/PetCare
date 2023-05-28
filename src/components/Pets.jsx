@@ -25,6 +25,7 @@ const Pets = () => {
         </div>
         <div className="slider__page-image">
           <picture>
+            <source srcSet={cat_mobile} media="(max-width: 390px)" />
             <source srcSet={cat_mobile} media="(max-width: 320px)" />
             <img src={cat} alt="cat" />
           </picture>

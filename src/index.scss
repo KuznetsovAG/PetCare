@@ -426,6 +426,27 @@ body {
 
 }
 
+@media (max-width: 390px) {
+    .slider__page-image {
+    position: absolute;
+    width: 150px;
+    height: 185.5px;
+    left: 225px;
+    top: 200px;
+  }
+  .mySwiper {
+    height: 440px;
+    width: 100%;
+  }
+
+  .slider__page_care {
+    background: url('./img/mobile/dog__mobile.png') no-repeat;
+  }
+  .info__button {
+    padding: 12px 15px;
+  }
+}
+
 
 @media (max-width: 320px) {
 
@@ -469,5 +490,8 @@ body {
   }
   .footer__logo-text, .logo__text {
     display: none;
+  }
+  .header__mobile-close {
+    top: 5.28%;
   }
 }

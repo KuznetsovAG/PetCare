@@ -17,3 +17,5 @@ export { default as arrowNext } from "./icons/arrowNext.svg";
 export { default as logo_mobile } from "./logo/logo_mobile.svg";
 export { default as care_mobile } from "./mobile/care_mobile.png";
 export { default as logo_text } from "./logo/logo_text.svg";
+export { default as mobile_menu } from "./mobile/mobile_menu.svg";
+export { default as mobile_close } from "./mobile/mobile_close.svg";
