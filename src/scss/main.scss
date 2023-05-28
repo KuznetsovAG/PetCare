@@ -9,13 +9,20 @@
     display: none;
   }
   
-  .swiper-button-prev img {
+  .swiper-button-prev svg {
     position: absolute;
     top: -240px;
     left: 95px;
+    transform: rotate(-180deg);
+  }
+
+
+  .swiper-button-icon:hover path {
+    fill: #BEE7E8;
   }
   
-  .swiper-button-next img {
+  
+  .swiper-button-next svg {
     position: absolute;
     top: -240px;
     right: 95px;
